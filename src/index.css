@@ -1,0 +1,23 @@
+@tailwind base;
+@layer base {
+  html {
+    @apply text-white;
+  } 
+}
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Grotesk";
+  src: url("./assets/fonts/Grotesk.ttf");
+}
+
+@font-face {
+  font-family: "Neue";
+  src: url("./assets/fonts/NeueMontreal-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Chakra";
+  src: url("./assets/fonts/ChakraPetch-Regular.ttf");
+}
