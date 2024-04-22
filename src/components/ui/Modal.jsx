@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { IoClose } from "react-icons/io5"
 
-const Modal = ({ isLoginOpen, setIsLoginOpen,setIsLoggedIn }) => {
+const Modal = ({  }) => {
     const [email, setEmail] = useState('')
     const [name, setName] = useState('')
     const [subject, setSubject] = useState('')
