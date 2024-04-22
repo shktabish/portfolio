@@ -79,7 +79,7 @@ const ContactMe = ({ setIsModalOpen }) => {
             </a>
           </div>
           <div onClick={() => setIsModalOpen(true)} className="absolute bottom-0 max-md:static right-0 mb-10 mr-5 bg-500">
-            <img src="rotator.svg" alt="" className="w-52 h-52 cursor-pointer" />
+            <img src="rotator.svg" alt="" className="w-72 h-72 cursor-pointer" />
           </div>
         </div>
       </div>

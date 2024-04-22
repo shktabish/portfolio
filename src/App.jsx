@@ -23,7 +23,7 @@ const App = () => {
       <Skills />
       <Github />
       <ContactMe setIsModalOpen={setIsModalOpen} isModalOpen={isModalOpen}/>
-      <Modal setIsModalOpen={setIsModalOpen}/>
+      {/* <Modal setIsModalOpen={setIsModalOpen}/> */}
     </div>
   )
 }
