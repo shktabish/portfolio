@@ -11,21 +11,21 @@ export const projectsData = [
         "title":"Spotify Clone",
         "desc":"Developed a personal project,a Spotify-clone, utilizing the MERN stack with JWT authentication and Firebase integration for streamlined media management. Designed and implemented user-centric features including song uploading, library creation, and liking functionalities, tailoring the music experience.",
         "image":"./projects/Spotify-Img.jpg",
-        "video":"./projects/Data-Symphony-vid.MP4"
+        "video":"./projects/Spotify_vid.mp4"
     },
     {
         "key":"3",
         "title":"Notes Management App",
         "desc":"Created a user-friendly notes application featuring draggable cards for enhanced organization, utilizing browser local storage for seamless data persistence. Implemented a modal interface for efficient addition of new notes, enhancing usability and overall user experience.",
         "image":"./projects/Notes-Img.jpg",
-        "video":"./projects/Data-Symphony-vid.MP4"
+        "video":"./projects/Notes-Vid.mp4"
     },
     {
         "key":"4",
-        "title":"Notes Management App",
-        "desc":"Created a user-friendly notes application featuring draggable cards for enhanced organization, utilizing browser local storage for seamless data persistence. Implemented a modal interface for efficient addition of new notes, enhancing usability and overall user experience.",
-        "image":"./projects/Notes-Img.jpg",
-        "video":"./projects/Data-Symphony-vid.MP4"
+        "title":"Portfolio",
+        "desc":"Designed an immersive portfolio experience featuring captivating animations, 3D models, and all essential information. Seamlessly integrated animations enhance user engagement, while 3D models add depth and visual appeal. Ensured usability with intuitive navigation and comprehensive content presentation",
+        "image":"./projects/Portfolio.jpg",
+        "video":"./projects/Portfolio-Vid.mp4"
     }
 ]
 
@@ -36,23 +36,23 @@ export const linksData = [
     },
     {
         "name":"About Me",
-        "href":"/"
+        "href":"/#aboutme"
     },
     {
         "name":"Projects",
-        "href":"/"
+        "href":"/#projects"
     },
     {
         "name":"Skills",
-        "href":"/"
+        "href":"/#skills"
     },
     {
         "name":"Github",
-        "href":"/"
+        "href":"/#github"
     },
     {
         "name":"Contact Me",
-        "href":"/"
+        "href":"/#contactme"
     }
 ]
 

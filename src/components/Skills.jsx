@@ -37,7 +37,7 @@ const Skills = () => {
   ))
 
   return (
-    <div className="min-h-screen w-full flex flex-col justify-around">
+    <div id="skills" className="min-h-screen w-full flex flex-col justify-around">
       <div className="font-Neue text-7xl font-bold max-md:text-5xl py-2 px-8">Skills</div>
       <div className="flex justify-center items-center flex-wrap mb-8">
         {skills}

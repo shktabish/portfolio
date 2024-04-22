@@ -3,25 +3,27 @@
 }
 
 .card {
-    min-height: 65vh;
-    width: 25vw;
+    height: 550px;
+    width: 350px;
     background-color: #1D1D1D;
     gap: 20px;
     padding: 5px 20px;
     transition: all 10ms linear;
 }
 
-.card-img {
-    height: 30vh;
-    aspect-ratio: 4/3;
-    overflow: hidden;
-}
-
-.card-img img {
-    width: 100%;
-}
-
 .card-head {
     font-size: 1.5rem;
     font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .card {
+        max-width: 250px;
+    }
 }

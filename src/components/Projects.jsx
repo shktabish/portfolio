@@ -44,7 +44,7 @@ const Projects = () => {
     ))
 
   return (
-    <div className="conatiner flex flex-col justify-evenly h-screen w-full overflow-x-hidden">
+    <div id="projects" className="conatiner flex flex-col justify-evenly h-screen w-full overflow-x-hidden">
         <div className="font-Neue text-7xl font-bold max-md:text-5xl py-2 px-8">Projects</div>
         <div className="flex w-[1000vw] gap-10 p-5">
             {projects}

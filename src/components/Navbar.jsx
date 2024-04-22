@@ -1,6 +1,7 @@
 import { useState } from "react"
 import { motion } from 'framer-motion';
 import { linksData } from "../constants/data";
+import { Link } from "react-router-dom";
 
 const Button = ({ isActive, setIsActive }) => {
   return (
@@ -43,10 +44,10 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="absolute top-[50px] left-[100px] z-50 text-5xl font-Grotesk">
-        tabish<span>.</span>s
+      <div className="absolute top-[50px] left-[100px] z-[51] text-5xl font-Grotesk">
+        tabish<span className="text-blue-500">.</span>s
       </div>
-      <div className="fixed top-[50px] right-[50px] z-50">
+      <div className="fixed top-[50px] right-[50px] z-[51]">
         <motion.div 
           className="relative rounded-[25px] bg-white"
           variants={variant}

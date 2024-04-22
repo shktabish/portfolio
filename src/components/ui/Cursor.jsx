@@ -56,7 +56,7 @@ export default function BlurryCursor({ isActive }) {
                 <div
                     key={i}
                     ref={ref => (circles.current[i] = ref)}
-                    className='top-0 left-0 fixed z-[51] rounded-full mix-blend-difference pointer-events-none'
+                    className='top-0 left-0 fixed z-50 rounded-full mix-blend-difference pointer-events-none'
                     style={{
                         backgroundColor: colors[i],
                         width: size,

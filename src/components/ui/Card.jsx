@@ -26,7 +26,7 @@ const Card = () => {
 
   return (
     <div className='cardCon'>
-        <div className="card mb-[20vh] rounded-xl"
+        <div className="card mb-[20vh] rounded-xl max-sm:h-max"
         onMouseMove={(e) => {
             //getting the left, right, width and height of the card
             const left = e.currentTarget.getBoundingClientRect().left
@@ -58,11 +58,11 @@ const Card = () => {
                     <div className='text-center mt-2'>Tabish</div>
                 </div>
                 <div className='flex flex-col items-center justify-center'>
-                    <div className='text-xl font-semibold'>Followers</div>
+                    <div className='text-xl max-sm:text-base font-semibold'>Followers</div>
                     <div className='text-lg'>{followers}</div>
                 </div>
                 <div className='flex flex-col items-center justify-center'>
-                    <div className='text-xl font-semibold'>Following</div>
+                    <div className='text-xl max-sm:text-base font-semibold'>Following</div>
                     <div className='text-lg'>{following}</div>
                 </div>
             </div>
