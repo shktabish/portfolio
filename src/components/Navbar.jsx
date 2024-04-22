@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { motion } from 'framer-motion';
 import { linksData } from "../constants/data";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 
 const Button = ({ isActive, setIsActive }) => {
   return (
@@ -23,7 +23,7 @@ const Navbar = () => {
 
   const links = linksData.map((link, i) => (
     <div key={i} className="text-4xl text-black font-Neue font-semibold">
-      <a href={link.href}>{link.name}</a>
+      <Link className="cursor-pointer" smooth={true} to={link.href}>{link.name}</Link>
     </div>
   ))
 

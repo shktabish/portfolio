@@ -32,27 +32,27 @@ export const projectsData = [
 export const linksData = [
     {
         "name":"Home",
-        "href":"/"
+        "href":"hero"
     },
     {
         "name":"About Me",
-        "href":"/#aboutme"
+        "href":"aboutme"
     },
     {
         "name":"Projects",
-        "href":"/#projects"
+        "href":"projects"
     },
     {
         "name":"Skills",
-        "href":"/#skills"
+        "href":"skills"
     },
     {
         "name":"Github",
-        "href":"/#github"
+        "href":"github"
     },
     {
         "name":"Contact Me",
-        "href":"/#contactme"
+        "href":"contactme"
     }
 ]
 
