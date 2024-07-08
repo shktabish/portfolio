@@ -10,7 +10,7 @@ export const projectsData = [
         "key":"2",
         "title":"Spotify Clone",
         "desc":"Developed a personal project,a Spotify-clone, utilizing the MERN stack with JWT authentication and Firebase integration for streamlined media management. Designed and implemented user-centric features including song uploading, library creation, and liking functionalities, tailoring the music experience.",
-        "image":"./projects/Spotify-Img.jpg",
+        "image":"./projects/Spotify-Img.png",
         "video":"./projects/Spotify_vid.mp4"
     },
     {
