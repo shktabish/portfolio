@@ -21,7 +21,7 @@ const App = () => {
       <AboutMe />
       <Projects />
       <Skills />
-      <Github />
+      {/* <Github /> */}
       <ContactMe setIsModalOpen={setIsModalOpen} isModalOpen={isModalOpen}/>
       {/* <Modal setIsModalOpen={setIsModalOpen}/> */}
     </div>
